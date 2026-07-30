@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "placement-plan",
+    "title": "Placement Plan",
+    "regulator": "ofsted",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "placement-plan.docx",
+    "description": "A complete placement plan covering the child's details, legal status, delegated authority and consents, health, education, identity, family time, risks and daily living. Ready to complete within the first days of a placement and review alongside the statutory care plan.",
+    "supports": "Reg 5, Care Planning, Placement and Case Review (England) Regulations 2010; Reg 14, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "behaviour-support-plan",
+    "title": "Behaviour Support Plan (PBS)",
+    "regulator": "ofsted",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "behaviour-support-plan.docx",
+    "description": "A positive behaviour support plan structured around understanding the behaviour and primary, secondary and reactive strategies, with post-incident repair. Includes a ready-to-print ABC (Antecedent–Behaviour–Consequence) recording sheet.",
+    "supports": "Regs 11, 20 & 35, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "physical-intervention-record",
+    "title": "Physical Intervention Record",
+    "regulator": "ofsted",
+    "category": "safeguarding",
+    "format": "docx",
+    "filename": "physical-intervention-record.docx",
+    "description": "A restraint record capturing everyone involved, de-escalation attempted, the technique and duration, injuries, effectiveness, the child's views and management sign-off. Built around the 48-hour and 5-day requirements of Regulation 35.",
+    "supports": "Reg 35, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "missing-from-care-record",
+    "title": "Missing from Care Record & Return Home Interview",
+    "regulator": "ofsted",
+    "category": "safeguarding",
+    "format": "docx",
+    "filename": "missing-from-care-record.docx",
+    "description": "A two-part record for missing episodes: risk information, police reference, a timeline of actions and return details, followed by an independent return home interview form with suggested questions and an action plan.",
+    "supports": "Statutory guidance on children who run away or go missing from home or care (DfE, 2014); Reg 40, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "key-work-session-log",
+    "title": "Key Work Session Log",
+    "regulator": "ofsted",
+    "category": "recording",
+    "format": "docx",
+    "filename": "key-work-session-log.docx",
+    "description": "A structured log for one-to-one key work sessions linking each session to care plan objectives, recording the child's views in their own words and tracking agreed actions to the next session.",
+    "supports": "Quality Standards (Regs 6–14), Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "reg-44-visit-pack",
+    "title": "Reg 44 Independent Visitor Preparation Pack",
+    "regulator": "ofsted",
+    "category": "quality-audit",
+    "format": "docx",
+    "filename": "reg-44-visit-pack.docx",
+    "description": "Everything the independent person needs for a monthly Regulation 44 visit: a document sampling checklist, suggested questions for children, staff and the manager, observation prompts and a report structure focused on the two required opinions.",
+    "supports": "Reg 44, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "reg-45-quality-review",
+    "title": "Reg 45 Quality of Care Review",
+    "regulator": "ofsted",
+    "category": "quality-audit",
+    "format": "docx",
+    "filename": "reg-45-quality-review.docx",
+    "description": "A six-monthly quality of care review structured around the Reg 45(2) matters: quality of care data and Quality Standards self-assessment, children's feedback and opinions, complaint actions and an improvement plan.",
+    "supports": "Reg 45, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "daily-log-template",
+    "title": "Daily Log",
+    "regulator": "ofsted",
+    "category": "recording",
+    "format": "docx",
+    "filename": "daily-log-template.docx",
+    "description": "A daily recording template with built-in prompts for factual, non-judgemental, child-focused recording across the whole day, including positives as well as concerns. Written on the basis that the child may read it.",
+    "supports": "Reg 36 & Schedule 3, Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "handover-sheet",
+    "title": "Shift Handover Sheet",
+    "regulator": "ofsted",
+    "category": "recording",
+    "format": "docx",
+    "filename": "handover-sheet.docx",
+    "description": "A shift-change handover covering each child's day, medication, appointments, incidents, safeguarding updates, money, vehicles and outstanding tasks, signed by both the outgoing and incoming senior.",
+    "supports": "Reg 13 (leadership and management), Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "friendship-associates-log",
+    "title": "Friendship & Associates Log",
+    "regulator": "ofsted",
+    "category": "safeguarding",
+    "format": "docx",
+    "filename": "friendship-associates-log.docx",
+    "description": "A running log of each child's friends and associates on and offline, with prompts for exploitation warning signs and a clear route into safeguarding action. Supports missing episode responses and contextual safeguarding.",
+    "supports": "Reg 12 (protection of children), Children's Homes (England) Regulations 2015"
+  },
+  {
+    "slug": "young-persons-guide-skeleton",
+    "title": "Young Person's Guide (Skeleton)",
+    "regulator": "ofsted",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "young-persons-guide-skeleton.docx",
+    "description": "A child-friendly skeleton for your children's guide, with thirteen ready-made headings from 'Welcome' to 'Important numbers' and guidance on what to write in each. Adapt the language to the ages and needs of the children you care for.",
+    "supports": "Children's guide requirements, Children's Homes (England) Regulations 2015 and the Guide to the Regulations"
+  },
+  {
+    "slug": "person-centred-care-plan",
+    "title": "Person-Centred Care Plan",
+    "regulator": "cqc",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "person-centred-care-plan.docx",
+    "description": "A full person-centred care plan: about me, communication, consent and capacity, and twelve care domains each recording what the person can do, the support they want and the outcome being worked towards, with a review record.",
+    "supports": "Regs 9 & 11, Health and Social Care Act 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "one-page-profile",
+    "title": "One-Page Profile",
+    "regulator": "cqc",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "one-page-profile.docx",
+    "description": "The classic one-page profile: what people appreciate about me, what is important to me, and how best to support me — with hints that push for specific, personal detail a stranger could act on.",
+    "supports": "Regs 9 & 10, Health and Social Care Act 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "mca-capacity-assessment",
+    "title": "MCA Capacity Assessment",
+    "regulator": "cqc",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "mca-capacity-assessment.docx",
+    "description": "A decision-specific mental capacity assessment working through the two-stage test: the diagnostic test and the four functional elements (understand, retain, use or weigh, communicate), with the supported decision-making steps evidenced first.",
+    "supports": "Mental Capacity Act 2005 ss.1–3; Reg 11, HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "best-interests-decision-record",
+    "title": "Best Interests Decision Record",
+    "regulator": "cqc",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "best-interests-decision-record.docx",
+    "description": "A section 4 best interests record with the full statutory checklist, a consultation table, an options comparison including less restrictive alternatives, and the decision with rationale and review arrangements.",
+    "supports": "Mental Capacity Act 2005 s.4"
+  },
+  {
+    "slug": "dols-application-tracker",
+    "title": "DoLS Application Tracker",
+    "regulator": "cqc",
+    "category": "safeguarding",
+    "format": "xlsx",
+    "filename": "dols-application-tracker.xlsx",
+    "description": "A spreadsheet tracker for DoLS applications: urgent and standard authorisations, supervisory body, status, expiry and review dates, conditions and RPR details, with a status key sheet and dropdown validation built in.",
+    "supports": "Mental Capacity Act 2005 Schedule A1 (DoLS); Reg 13, HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "mar-audit-tool",
+    "title": "MAR Audit Tool",
+    "regulator": "cqc",
+    "category": "medication",
+    "format": "docx",
+    "filename": "mar-audit-tool.docx",
+    "description": "A twenty-question MAR chart audit with Yes / No / N/A columns covering signatures, gaps, PRN protocols, controlled drugs, storage temperatures and staff competency, feeding into an action plan.",
+    "supports": "Reg 12(2)(g) (safe management of medicines), HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "medication-error-record",
+    "title": "Medication Error Record",
+    "regulator": "cqc",
+    "category": "medication",
+    "format": "docx",
+    "filename": "medication-error-record.docx",
+    "description": "A no-blame medication error record: what happened, immediate safety checks, GP / NHS 111 advice, notifications including CQC and safeguarding, and a root-cause reflection with actions to prevent recurrence.",
+    "supports": "Reg 12, HSCA 2008 (Regulated Activities) Regulations 2014; Reg 18, CQC (Registration) Regulations 2009"
+  },
+  {
+    "slug": "incident-accident-form",
+    "title": "Incident / Accident Form",
+    "regulator": "cqc",
+    "category": "recording",
+    "format": "docx",
+    "filename": "incident-accident-form.docx",
+    "description": "An incident and accident form for residents, staff and visitors with injuries and treatment, a structured RIDDOR reportability check, notification checklist and manager review for learning.",
+    "supports": "Regs 12 & 17, HSCA 2008 (Regulated Activities) Regulations 2014; RIDDOR 2013"
+  },
+  {
+    "slug": "complaints-log",
+    "title": "Complaints Log",
+    "regulator": "cqc",
+    "category": "quality-audit",
+    "format": "docx",
+    "filename": "complaints-log.docx",
+    "description": "A single oversight log for all complaints — including verbal ones — tracking acknowledgement, investigation, outcome, response and learning, with recommended timescales and escalation routes included.",
+    "supports": "Reg 16 (receiving and acting on complaints), HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "duty-of-candour-record",
+    "title": "Duty of Candour Record",
+    "regulator": "cqc",
+    "category": "quality-audit",
+    "format": "docx",
+    "filename": "duty-of-candour-record.docx",
+    "description": "A step-by-step Regulation 20 record: the notifiable safety incident, the verbal notification and apology, the written follow-up, sharing of investigation results and the audit trail CQC expects to see.",
+    "supports": "Reg 20 (duty of candour), HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "statement-of-purpose-skeleton",
+    "title": "Statement of Purpose (Skeleton)",
+    "regulator": "cqc",
+    "category": "quality-audit",
+    "format": "docx",
+    "filename": "statement-of-purpose-skeleton.docx",
+    "description": "A ten-section skeleton covering the Schedule 3 matters: provider details, aims and objectives, regulated activities, needs met, locations, staffing, the registered manager and contact details, with guidance under each heading.",
+    "supports": "Reg 12 & Schedule 3, CQC (Registration) Regulations 2009"
+  },
+  {
+    "slug": "service-user-guide-skeleton",
+    "title": "Service User Guide (Skeleton)",
+    "regulator": "cqc",
+    "category": "care-planning",
+    "format": "docx",
+    "filename": "service-user-guide-skeleton.docx",
+    "description": "A plain-English service user guide skeleton with twelve headings from 'Welcome' to 'Useful contacts', each with guidance on content, adaptable to residential or home care settings and accessible formats.",
+    "supports": "Regs 9 & 17, HSCA 2008 (Regulated Activities) Regulations 2014; Accessible Information Standard"
+  },
+  {
+    "slug": "supervision-record-staff",
+    "title": "Supervision Record — Staff",
+    "regulator": "both",
+    "category": "hr-staffing",
+    "format": "docx",
+    "filename": "supervision-record-staff.docx",
+    "description": "A one-to-one supervision record for care staff covering wellbeing, caseload and key work, safeguarding, performance, development and agreed actions, with review of the previous session's actions built in.",
+    "supports": "Reg 33, Children's Homes (England) Regulations 2015; Reg 18(2)(a), HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "supervision-record-manager",
+    "title": "Supervision Record — Manager",
+    "regulator": "both",
+    "category": "hr-staffing",
+    "format": "docx",
+    "filename": "supervision-record-manager.docx",
+    "description": "A supervision record for the registered manager, led by the responsible or nominated individual: safeguarding and incident oversight, quality and compliance, staffing, resources and the manager's own wellbeing and development.",
+    "supports": "Reg 33, Children's Homes (England) Regulations 2015; Reg 18(2)(a), HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "team-meeting-agenda-minutes",
+    "title": "Team Meeting Agenda & Minutes",
+    "regulator": "both",
+    "category": "hr-staffing",
+    "format": "docx",
+    "filename": "team-meeting-agenda-minutes.docx",
+    "description": "A combined agenda and minutes template with a twelve-item standing agenda, an action log, and a read-and-understood sign sheet for staff who missed the meeting.",
+    "supports": "Reg 13, Children's Homes (England) Regulations 2015; Reg 17, HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "reflective-practice-log",
+    "title": "Reflective Practice Log",
+    "regulator": "both",
+    "category": "hr-staffing",
+    "format": "docx",
+    "filename": "reflective-practice-log.docx",
+    "description": "A reflection template working through all six stages of Gibbs' reflective cycle with prompts at each stage, linking the reflection into supervision and the staff member's development plan.",
+    "supports": "Care Certificate Standard 2; Reg 18, HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "induction-checklist-care-certificate",
+    "title": "Induction Checklist (Care Certificate)",
+    "regulator": "both",
+    "category": "hr-staffing",
+    "format": "docx",
+    "filename": "induction-checklist-care-certificate.docx",
+    "description": "A two-part induction checklist: first-week essentials from fire safety to key policies, then sign-off against each of the 15 Care Certificate standards with assessor initials and a 12-week target.",
+    "supports": "The Care Certificate (Skills for Care / Health Education England); Reg 18 & 19, HSCA 2008 (Regulated Activities) Regulations 2014; Reg 33, CHR 2015"
+  },
+  {
+    "slug": "safer-recruitment-checklist",
+    "title": "Safer Recruitment Checklist",
+    "regulator": "both",
+    "category": "hr-staffing",
+    "format": "docx",
+    "filename": "safer-recruitment-checklist.docx",
+    "description": "A start-to-finish safer recruitment checklist for each appointment — advert wording, application and gap checking, enhanced DBS with barred list, verified references, overseas checks and induction — filed as evidence in the staff record.",
+    "supports": "Schedule 2, Children's Homes (England) Regulations 2015; Reg 19 & Schedule 3, HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "audit-schedule-annual",
+    "title": "Annual Audit Schedule",
+    "regulator": "both",
+    "category": "quality-audit",
+    "format": "docx",
+    "filename": "audit-schedule-annual.docx",
+    "description": "A landscape 12-month audit planner pre-loaded with nineteen audit areas and suggested frequencies, from MAR charts to unannounced night visits, with a simple planned / completed marking key.",
+    "supports": "Reg 45, Children's Homes (England) Regulations 2015; Reg 17 (good governance), HSCA 2008 (Regulated Activities) Regulations 2014"
+  },
+  {
+    "slug": "risk-assessment-5x5",
+    "title": "Risk Assessment (5x5 Matrix)",
+    "regulator": "both",
+    "category": "safeguarding",
+    "format": "docx",
+    "filename": "risk-assessment-5x5.docx",
+    "description": "A general risk assessment template with a colour 5x5 likelihood-by-severity matrix, full scoring key and rating bands, hazard table with residual scoring, and a review record.",
+    "supports": "Management of Health and Safety at Work Regulations 1999; Reg 12, CHR 2015; Reg 12, HSCA 2008 (Regulated Activities) Regulations 2014"
+  }
+]

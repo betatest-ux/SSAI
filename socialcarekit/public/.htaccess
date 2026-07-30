@@ -1,0 +1,39 @@
+# SocialCareKit — Apache rewrite & hardening
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Force HTTPS (skip on localhost)
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Serve existing files/dirs directly (assets), everything else via index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+</IfModule>
+
+# Security headers (also sent from PHP; belt and braces)
+<IfModule mod_headers.c>
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Long cache for static assets
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 30 days"
+ExpiresByType application/javascript "access plus 30 days"
+ExpiresByType image/svg+xml "access plus 30 days"
+ExpiresByType image/webp "access plus 30 days"
+ExpiresByType image/png "access plus 30 days"
+</IfModule>
+
+# Never serve these if they somehow end up in the web root
+<FilesMatch "\.(sql|ini|log|sh|bak|env)$">
+  Require all denied
+</FilesMatch>

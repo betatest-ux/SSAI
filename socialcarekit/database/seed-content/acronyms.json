@@ -1,0 +1,1094 @@
+[
+  {
+    "acronym": "ABC",
+    "full_term": "Antecedent, Behaviour, Consequence",
+    "meaning": "A recording method that logs what happened before, during and after an incident to help understand the triggers for behaviour.",
+    "sector": "both"
+  },
+  {
+    "acronym": "ACEs",
+    "full_term": "Adverse Childhood Experiences",
+    "meaning": "Stressful or traumatic events in childhood, such as abuse or household dysfunction, linked to poorer health and life outcomes.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ADASS",
+    "full_term": "Association of Directors of Adult Social Services",
+    "meaning": "The membership body for directors of adult social services in England, which influences national policy.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "ADCS",
+    "full_term": "Association of Directors of Children's Services",
+    "meaning": "The membership body for directors of children's services in England, which influences national policy.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ADHD",
+    "full_term": "Attention Deficit Hyperactivity Disorder",
+    "meaning": "A neurodevelopmental condition involving persistent inattention, hyperactivity and impulsivity that affects daily life.",
+    "sector": "health"
+  },
+  {
+    "acronym": "ADLs",
+    "full_term": "Activities of Daily Living",
+    "meaning": "Everyday self-care tasks such as washing, dressing, eating and moving about, used to assess how much support a person needs.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "ADM",
+    "full_term": "Agency Decision Maker",
+    "meaning": "The senior officer in an adoption or fostering agency who makes formal decisions, such as whether a child should be placed for adoption.",
+    "sector": "children"
+  },
+  {
+    "acronym": "AMHP",
+    "full_term": "Approved Mental Health Professional",
+    "meaning": "A specially trained professional, often a social worker, who co-ordinates Mental Health Act assessments and can apply for a person to be detained.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "AP",
+    "full_term": "Alternative Provision",
+    "meaning": "Education arranged for pupils who cannot attend mainstream school, for example because of exclusion or illness.",
+    "sector": "education"
+  },
+  {
+    "acronym": "ASD",
+    "full_term": "Autism Spectrum Disorder",
+    "meaning": "A lifelong neurodevelopmental condition affecting how a person communicates, interacts and experiences the world.",
+    "sector": "health"
+  },
+  {
+    "acronym": "ASYE",
+    "full_term": "Assessed and Supported Year in Employment",
+    "meaning": "A supported first year in practice for newly qualified social workers, with reduced caseloads and regular assessment.",
+    "sector": "both"
+  },
+  {
+    "acronym": "BASW",
+    "full_term": "British Association of Social Workers",
+    "meaning": "The professional association for social workers across the UK, which publishes the profession's code of ethics.",
+    "sector": "both"
+  },
+  {
+    "acronym": "BIA",
+    "full_term": "Best Interests Assessor",
+    "meaning": "A trained professional who assesses whether a deprivation of liberty is in a person's best interests under the DoLS scheme.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "CAFCASS",
+    "full_term": "Children and Family Court Advisory and Support Service",
+    "meaning": "The organisation that represents children's interests in family court proceedings in England.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CAMHS",
+    "full_term": "Child and Adolescent Mental Health Services",
+    "meaning": "NHS services that assess and treat children and young people with emotional, behavioural or mental health difficulties.",
+    "sector": "health"
+  },
+  {
+    "acronym": "CAO",
+    "full_term": "Child Arrangements Order",
+    "meaning": "A court order deciding who a child lives with, spends time with or otherwise has contact with.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CCE",
+    "full_term": "Child Criminal Exploitation",
+    "meaning": "Abuse where a child is coerced or manipulated into criminal activity, such as county lines drug dealing.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CDOP",
+    "full_term": "Child Death Overview Panel",
+    "meaning": "The multi-agency panel that reviews the deaths of all children in an area to identify learning and prevent future deaths.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CEOP",
+    "full_term": "Child Exploitation and Online Protection Command",
+    "meaning": "The National Crime Agency command that tackles online child sexual abuse and exploitation and runs a public reporting service.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CHC",
+    "full_term": "Continuing Healthcare",
+    "meaning": "NHS-funded care for adults whose long-term care needs arise primarily from health needs, covering the full cost of their care.",
+    "sector": "health"
+  },
+  {
+    "acronym": "CIC",
+    "full_term": "Child in Care",
+    "meaning": "An alternative term for a looked-after child, used by many local authorities and often preferred by young people.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CIN",
+    "full_term": "Child in Need",
+    "meaning": "A child assessed under section 17 of the Children Act 1989 as needing extra services to achieve a reasonable standard of health or development.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CLA",
+    "full_term": "Child Looked After",
+    "meaning": "The term now preferred by many local authorities for a child in the care of the local authority, replacing LAC.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CME",
+    "full_term": "Children Missing Education",
+    "meaning": "Children of compulsory school age who are not registered at a school and are not receiving suitable education elsewhere.",
+    "sector": "education"
+  },
+  {
+    "acronym": "CoP",
+    "full_term": "Court of Protection",
+    "meaning": "The court that makes decisions about the property, welfare and finances of people who lack mental capacity.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "CoramBAAF",
+    "full_term": "Coram British Association for Adoption and Fostering",
+    "meaning": "The membership organisation that provides guidance, forms and research for adoption, fostering and kinship care.",
+    "sector": "children"
+  },
+  {
+    "acronym": "COSHH",
+    "full_term": "Control of Substances Hazardous to Health",
+    "meaning": "Regulations requiring employers to control exposure to hazardous substances such as cleaning chemicals.",
+    "sector": "both"
+  },
+  {
+    "acronym": "CP",
+    "full_term": "Child Protection",
+    "meaning": "Work carried out to protect a child who is suffering, or is likely to suffer, significant harm.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CPN",
+    "full_term": "Community Psychiatric Nurse",
+    "meaning": "A mental health nurse who supports people living in the community rather than in hospital.",
+    "sector": "health"
+  },
+  {
+    "acronym": "CPP",
+    "full_term": "Child Protection Plan",
+    "meaning": "A multi-agency plan setting out the actions needed to keep a child safe after a child protection conference decides they are at risk of significant harm.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CQC",
+    "full_term": "Care Quality Commission",
+    "meaning": "The independent regulator of health and adult social care services in England.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "CSA",
+    "full_term": "Child Sexual Abuse",
+    "meaning": "Forcing or enticing a child to take part in sexual activities, whether or not the child is aware of what is happening.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CSE",
+    "full_term": "Child Sexual Exploitation",
+    "meaning": "A form of sexual abuse where a child is coerced, manipulated or deceived into sexual activity, often in exchange for something they want or need.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CSPR",
+    "full_term": "Child Safeguarding Practice Review",
+    "meaning": "A statutory review held after a child dies or is seriously harmed and abuse or neglect is known or suspected, to identify improvements to practice.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CTO",
+    "full_term": "Community Treatment Order",
+    "meaning": "An order allowing a patient detained under the Mental Health Act to be treated in the community subject to conditions, with a power of recall to hospital.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "CWD",
+    "full_term": "Children with Disabilities",
+    "meaning": "A common name for the social work teams and services that support disabled children and their families.",
+    "sector": "children"
+  },
+  {
+    "acronym": "CYP",
+    "full_term": "Children and Young People",
+    "meaning": "A general term covering children and young people, usually from birth up to age 18 or 25.",
+    "sector": "children"
+  },
+  {
+    "acronym": "DASH",
+    "full_term": "Domestic Abuse, Stalking and Harassment and Honour-Based Violence",
+    "meaning": "A standard checklist used to assess the level of risk faced by victims of domestic abuse.",
+    "sector": "both"
+  },
+  {
+    "acronym": "DBS",
+    "full_term": "Disclosure and Barring Service",
+    "meaning": "The body that carries out criminal record checks and maintains lists of people barred from working with children or vulnerable adults.",
+    "sector": "both"
+  },
+  {
+    "acronym": "DDP",
+    "full_term": "Dyadic Developmental Psychotherapy",
+    "meaning": "A therapy and parenting approach for children affected by trauma and attachment difficulties, focused on building safe relationships.",
+    "sector": "children"
+  },
+  {
+    "acronym": "DHR",
+    "full_term": "Domestic Homicide Review",
+    "meaning": "A statutory review held after a death caused by domestic abuse to learn lessons and improve how agencies protect victims.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "DNACPR",
+    "full_term": "Do Not Attempt Cardiopulmonary Resuscitation",
+    "meaning": "A recorded clinical decision that CPR should not be attempted if a person's heart or breathing stops.",
+    "sector": "health"
+  },
+  {
+    "acronym": "DoC",
+    "full_term": "Duty of Candour",
+    "meaning": "The legal duty on care providers to be open and honest with people, and apologise, when something goes wrong with their care.",
+    "sector": "both"
+  },
+  {
+    "acronym": "DoLS",
+    "full_term": "Deprivation of Liberty Safeguards",
+    "meaning": "Legal safeguards ensuring that people in hospitals and care homes who lack capacity are only deprived of their liberty when it is authorised and in their best interests.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "DPA",
+    "full_term": "Data Protection Act 2018",
+    "meaning": "The UK law, alongside UK GDPR, that governs how organisations must handle personal data.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "DSL",
+    "full_term": "Designated Safeguarding Lead",
+    "meaning": "The senior member of school or college staff responsible for safeguarding and child protection, including making referrals.",
+    "sector": "education"
+  },
+  {
+    "acronym": "DST",
+    "full_term": "Decision Support Tool",
+    "meaning": "The national form used by a multidisciplinary team to decide whether someone is eligible for NHS Continuing Healthcare.",
+    "sector": "health"
+  },
+  {
+    "acronym": "DWP",
+    "full_term": "Department for Work and Pensions",
+    "meaning": "The government department responsible for welfare benefits and pensions.",
+    "sector": "both"
+  },
+  {
+    "acronym": "EBSA",
+    "full_term": "Emotionally Based School Avoidance",
+    "meaning": "Difficulty attending school caused by anxiety or emotional distress rather than truancy.",
+    "sector": "education"
+  },
+  {
+    "acronym": "ECHR",
+    "full_term": "European Convention on Human Rights",
+    "meaning": "The international treaty protecting rights such as liberty, family life and freedom from inhuman treatment, given effect in UK law by the Human Rights Act.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "EHA",
+    "full_term": "Early Help Assessment",
+    "meaning": "An assessment used to identify a child's and family's needs early so support can be offered before problems escalate.",
+    "sector": "children"
+  },
+  {
+    "acronym": "EHC",
+    "full_term": "Education, Health and Care",
+    "meaning": "The combined assessment process that can lead to an EHC plan for a child or young person with special educational needs.",
+    "sector": "education"
+  },
+  {
+    "acronym": "EHCP",
+    "full_term": "Education, Health and Care Plan",
+    "meaning": "A legal document for children and young people up to 25 setting out their special educational needs and the support they must receive.",
+    "sector": "education"
+  },
+  {
+    "acronym": "EHE",
+    "full_term": "Elective Home Education",
+    "meaning": "A parent's choice to educate their child at home instead of sending them to school.",
+    "sector": "education"
+  },
+  {
+    "acronym": "ELSA",
+    "full_term": "Emotional Literacy Support Assistant",
+    "meaning": "A school teaching assistant trained to support pupils with their emotional development and wellbeing.",
+    "sector": "education"
+  },
+  {
+    "acronym": "eMAR",
+    "full_term": "Electronic Medication Administration Record",
+    "meaning": "A digital version of the medication administration record used to log medicines given in care settings.",
+    "sector": "health"
+  },
+  {
+    "acronym": "EOTAS",
+    "full_term": "Education Otherwise Than At School",
+    "meaning": "Education arranged by a local authority for a child who cannot attend school, delivered outside a school setting.",
+    "sector": "education"
+  },
+  {
+    "acronym": "EPA",
+    "full_term": "Enduring Power of Attorney",
+    "meaning": "An older form of power of attorney, made before October 2007, covering property and financial affairs; replaced by the LPA.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "EWO",
+    "full_term": "Education Welfare Officer",
+    "meaning": "A local authority officer who works with schools and families to improve school attendance.",
+    "sector": "education"
+  },
+  {
+    "acronym": "EYFS",
+    "full_term": "Early Years Foundation Stage",
+    "meaning": "The statutory framework setting standards for the learning, development and care of children from birth to age five.",
+    "sector": "education"
+  },
+  {
+    "acronym": "EYP",
+    "full_term": "Early Years Practitioner",
+    "meaning": "A person qualified to work with young children in early years settings such as nurseries.",
+    "sector": "education"
+  },
+  {
+    "acronym": "FDAC",
+    "full_term": "Family Drug and Alcohol Court",
+    "meaning": "A problem-solving family court that supports parents in care proceedings to address substance misuse and keep their children where possible.",
+    "sector": "children"
+  },
+  {
+    "acronym": "FGC",
+    "full_term": "Family Group Conference",
+    "meaning": "A family-led meeting in which the wider family makes a plan to keep a child safe and meet their needs.",
+    "sector": "children"
+  },
+  {
+    "acronym": "FGM",
+    "full_term": "Female Genital Mutilation",
+    "meaning": "The illegal practice of partially or totally removing or injuring a girl's or woman's genitalia for non-medical reasons.",
+    "sector": "both"
+  },
+  {
+    "acronym": "FNC",
+    "full_term": "Funded Nursing Care",
+    "meaning": "An NHS payment towards the nursing care element of a place in a nursing home for people not eligible for full Continuing Healthcare.",
+    "sector": "health"
+  },
+  {
+    "acronym": "FOI",
+    "full_term": "Freedom of Information",
+    "meaning": "The legal right, under the Freedom of Information Act 2000, to request recorded information held by public bodies.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "GDD",
+    "full_term": "Global Developmental Delay",
+    "meaning": "A significant delay in two or more areas of a young child's development, such as speech, movement or learning.",
+    "sector": "health"
+  },
+  {
+    "acronym": "GDPR",
+    "full_term": "General Data Protection Regulation",
+    "meaning": "The data protection framework, retained in UK law as UK GDPR, setting rules for how personal data must be processed.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "GP",
+    "full_term": "General Practitioner",
+    "meaning": "A family doctor providing general medical care in the community and referrals to specialist services.",
+    "sector": "health"
+  },
+  {
+    "acronym": "HCPC",
+    "full_term": "Health and Care Professions Council",
+    "meaning": "The regulator for professions such as occupational therapists, paramedics and speech and language therapists.",
+    "sector": "health"
+  },
+  {
+    "acronym": "HI",
+    "full_term": "Hearing Impairment",
+    "meaning": "A special educational needs category covering deafness or partial hearing loss that affects a child's learning.",
+    "sector": "education"
+  },
+  {
+    "acronym": "HRA",
+    "full_term": "Human Rights Act 1998",
+    "meaning": "The law that makes rights from the European Convention on Human Rights enforceable in UK courts.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "HSB",
+    "full_term": "Harmful Sexual Behaviour",
+    "meaning": "Sexual behaviour by a child or young person that is developmentally inappropriate and may be harmful to themselves or others.",
+    "sector": "children"
+  },
+  {
+    "acronym": "HSE",
+    "full_term": "Health and Safety Executive",
+    "meaning": "The national regulator for workplace health and safety in Great Britain.",
+    "sector": "both"
+  },
+  {
+    "acronym": "ICB",
+    "full_term": "Integrated Care Board",
+    "meaning": "The NHS body responsible for planning and funding most NHS services in a local area.",
+    "sector": "health"
+  },
+  {
+    "acronym": "ICMP",
+    "full_term": "Individual Crisis Management Plan",
+    "meaning": "A personalised plan in residential childcare describing how staff should respond when a specific child is in crisis, including any agreed physical intervention.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ICO",
+    "full_term": "Information Commissioner's Office",
+    "meaning": "The UK regulator for data protection and information rights, to which serious data breaches must be reported.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "ICO",
+    "full_term": "Interim Care Order",
+    "meaning": "A temporary court order placing a child in local authority care while care proceedings are ongoing.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ICPC",
+    "full_term": "Initial Child Protection Conference",
+    "meaning": "The first multi-agency meeting, held after section 47 enquiries, that decides whether a child needs a child protection plan.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ICS",
+    "full_term": "Integrated Care System",
+    "meaning": "A partnership of NHS organisations, councils and others responsible for planning health and care services for a local population.",
+    "sector": "health"
+  },
+  {
+    "acronym": "IDVA",
+    "full_term": "Independent Domestic Violence Advisor",
+    "meaning": "A trained specialist who supports victims of domestic abuse at highest risk of serious harm or murder.",
+    "sector": "both"
+  },
+  {
+    "acronym": "IEP",
+    "full_term": "Individual Education Plan",
+    "meaning": "A school-level plan setting targets and support strategies for a pupil with additional learning needs.",
+    "sector": "education"
+  },
+  {
+    "acronym": "IFA",
+    "full_term": "Independent Fostering Agency",
+    "meaning": "A non-local-authority organisation that recruits, trains and supports foster carers and places children with them.",
+    "sector": "children"
+  },
+  {
+    "acronym": "IMCA",
+    "full_term": "Independent Mental Capacity Advocate",
+    "meaning": "An advocate appointed to represent a person who lacks capacity and has no family or friends to consult about serious decisions.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "IMHA",
+    "full_term": "Independent Mental Health Advocate",
+    "meaning": "An advocate who helps patients detained or treated under the Mental Health Act understand and exercise their rights.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "IPC",
+    "full_term": "Infection Prevention and Control",
+    "meaning": "The practices, such as hand hygiene and cleaning, used to stop infections spreading in care settings.",
+    "sector": "health"
+  },
+  {
+    "acronym": "IRO",
+    "full_term": "Independent Reviewing Officer",
+    "meaning": "An independent social worker who chairs a looked-after child's reviews and checks the care plan is being followed.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ISVA",
+    "full_term": "Independent Sexual Violence Advisor",
+    "meaning": "A trained specialist who supports victims of sexual violence through the criminal justice process and beyond.",
+    "sector": "both"
+  },
+  {
+    "acronym": "ISW",
+    "full_term": "Independent Social Worker",
+    "meaning": "A registered social worker commissioned independently, often to provide expert assessments in court proceedings.",
+    "sector": "both"
+  },
+  {
+    "acronym": "KCSIE",
+    "full_term": "Keeping Children Safe in Education",
+    "meaning": "The statutory safeguarding guidance that all schools and colleges in England must follow.",
+    "sector": "education"
+  },
+  {
+    "acronym": "LA",
+    "full_term": "Local Authority",
+    "meaning": "The local council responsible for services including children's and adults' social care and education.",
+    "sector": "both"
+  },
+  {
+    "acronym": "LAC",
+    "full_term": "Looked After Child",
+    "meaning": "A child who is in the care of the local authority, whether under a care order or a voluntary arrangement.",
+    "sector": "children"
+  },
+  {
+    "acronym": "LADO",
+    "full_term": "Local Authority Designated Officer",
+    "meaning": "The council officer who manages allegations against adults who work or volunteer with children.",
+    "sector": "children"
+  },
+  {
+    "acronym": "LD",
+    "full_term": "Learning Disability",
+    "meaning": "A reduced intellectual ability and difficulty with everyday activities that starts in childhood and lasts throughout life.",
+    "sector": "both"
+  },
+  {
+    "acronym": "LeDeR",
+    "full_term": "Learning from Lives and Deaths",
+    "meaning": "The NHS programme that reviews the deaths of people with a learning disability and autistic people to improve care.",
+    "sector": "health"
+  },
+  {
+    "acronym": "LOLER",
+    "full_term": "Lifting Operations and Lifting Equipment Regulations 1998",
+    "meaning": "The law requiring lifting equipment, such as hoists in care settings, to be safe, maintained and regularly inspected.",
+    "sector": "both"
+  },
+  {
+    "acronym": "LPA",
+    "full_term": "Lasting Power of Attorney",
+    "meaning": "A legal document letting a person appoint someone to make decisions about their finances or health and welfare if they lose capacity.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "LPS",
+    "full_term": "Liberty Protection Safeguards",
+    "meaning": "The scheme created by the Mental Capacity (Amendment) Act 2019 intended to replace DoLS, though its implementation has been shelved.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "MAPPA",
+    "full_term": "Multi-Agency Public Protection Arrangements",
+    "meaning": "The framework through which police, probation and prisons manage the risk posed by violent and sexual offenders.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "MAR",
+    "full_term": "Medication Administration Record",
+    "meaning": "The document used in care settings to record every dose of medication given, refused or omitted.",
+    "sector": "health"
+  },
+  {
+    "acronym": "MARAC",
+    "full_term": "Multi-Agency Risk Assessment Conference",
+    "meaning": "A regular multi-agency meeting that shares information and plans safety actions for domestic abuse victims at high risk.",
+    "sector": "both"
+  },
+  {
+    "acronym": "MASH",
+    "full_term": "Multi-Agency Safeguarding Hub",
+    "meaning": "A team where police, social care, health and other agencies share information to decide how to respond to safeguarding concerns.",
+    "sector": "both"
+  },
+  {
+    "acronym": "MCA",
+    "full_term": "Mental Capacity Act 2005",
+    "meaning": "The law setting out how to assess whether a person aged 16 or over can make their own decisions and how to make best-interests decisions for those who cannot.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "MDT",
+    "full_term": "Multi-Disciplinary Team",
+    "meaning": "A group of professionals from different disciplines who work together on a person's assessment, care and treatment.",
+    "sector": "health"
+  },
+  {
+    "acronym": "MFH",
+    "full_term": "Missing From Home",
+    "meaning": "The status of a child or adult whose whereabouts are unknown and who is considered at risk, triggering agreed reporting procedures.",
+    "sector": "children"
+  },
+  {
+    "acronym": "MHA",
+    "full_term": "Mental Health Act 1983",
+    "meaning": "The law governing the assessment, detention and treatment of people with a mental disorder in England and Wales.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "MLD",
+    "full_term": "Moderate Learning Difficulties",
+    "meaning": "A special educational needs category for pupils whose attainment is well below expected levels across most areas of the curriculum.",
+    "sector": "education"
+  },
+  {
+    "acronym": "MUST",
+    "full_term": "Malnutrition Universal Screening Tool",
+    "meaning": "A screening tool used to identify adults who are malnourished or at risk of malnutrition.",
+    "sector": "health"
+  },
+  {
+    "acronym": "NAI",
+    "full_term": "Non-Accidental Injury",
+    "meaning": "An injury to a child that is judged to have been inflicted rather than caused by accident, raising child protection concerns.",
+    "sector": "children"
+  },
+  {
+    "acronym": "NEET",
+    "full_term": "Not in Education, Employment or Training",
+    "meaning": "A young person, usually aged 16 to 24, who is not in education, employment or training.",
+    "sector": "education"
+  },
+  {
+    "acronym": "NEWS2",
+    "full_term": "National Early Warning Score 2",
+    "meaning": "A standard NHS scoring system that uses vital signs to spot adults whose health is deteriorating.",
+    "sector": "health"
+  },
+  {
+    "acronym": "NHS",
+    "full_term": "National Health Service",
+    "meaning": "The UK's publicly funded health service, free at the point of use.",
+    "sector": "health"
+  },
+  {
+    "acronym": "NRM",
+    "full_term": "National Referral Mechanism",
+    "meaning": "The national framework for identifying and supporting victims of modern slavery and human trafficking.",
+    "sector": "both"
+  },
+  {
+    "acronym": "NSPCC",
+    "full_term": "National Society for the Prevention of Cruelty to Children",
+    "meaning": "A leading children's charity that runs child protection services, research and the Childline helpline.",
+    "sector": "children"
+  },
+  {
+    "acronym": "OFSTED",
+    "full_term": "Office for Standards in Education, Children's Services and Skills",
+    "meaning": "The inspectorate that regulates and inspects schools, early years settings and children's social care services, including children's homes.",
+    "sector": "education"
+  },
+  {
+    "acronym": "OT",
+    "full_term": "Occupational Therapist",
+    "meaning": "A health professional who helps people overcome barriers to everyday activities, often by recommending equipment, adaptations or new techniques.",
+    "sector": "health"
+  },
+  {
+    "acronym": "PA",
+    "full_term": "Personal Adviser",
+    "meaning": "The worker who supports a care leaver from age 16 to 25, helping with their pathway plan, housing, education and independence.",
+    "sector": "children"
+  },
+  {
+    "acronym": "PACE",
+    "full_term": "Playfulness, Acceptance, Curiosity, Empathy",
+    "meaning": "A therapeutic parenting approach, developed by Dan Hughes, used to build trust and emotional connection with children who have experienced trauma.",
+    "sector": "children"
+  },
+  {
+    "acronym": "PACE",
+    "full_term": "Police and Criminal Evidence Act 1984",
+    "meaning": "The law governing police powers such as arrest, detention and interviews, including the requirement for an appropriate adult for children and vulnerable adults.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "PBS",
+    "full_term": "Positive Behaviour Support",
+    "meaning": "A person-centred approach to understanding behaviour that challenges and reducing it by improving quality of life rather than punishing.",
+    "sector": "both"
+  },
+  {
+    "acronym": "PEEP",
+    "full_term": "Personal Emergency Evacuation Plan",
+    "meaning": "An individual plan describing how a person who cannot evacuate a building unaided will be helped to safety in an emergency.",
+    "sector": "both"
+  },
+  {
+    "acronym": "PEG",
+    "full_term": "Percutaneous Endoscopic Gastrostomy",
+    "meaning": "A feeding tube placed through the abdominal wall into the stomach for people who cannot eat or drink safely by mouth.",
+    "sector": "health"
+  },
+  {
+    "acronym": "PEP",
+    "full_term": "Personal Education Plan",
+    "meaning": "The education part of a looked-after child's care plan, reviewed each term with the school and social worker.",
+    "sector": "education"
+  },
+  {
+    "acronym": "PIP",
+    "full_term": "Personal Independence Payment",
+    "meaning": "A welfare benefit for people with a long-term health condition or disability that affects daily living or mobility.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "PLAC",
+    "full_term": "Previously Looked After Child",
+    "meaning": "A child who was in care but left through adoption, a special guardianship order or a child arrangements order, and remains entitled to certain support.",
+    "sector": "children"
+  },
+  {
+    "acronym": "PLO",
+    "full_term": "Public Law Outline",
+    "meaning": "The framework and pre-proceedings process courts and local authorities must follow in care proceedings.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "PMLD",
+    "full_term": "Profound and Multiple Learning Disabilities",
+    "meaning": "A severe learning disability combined with other significant needs, such as physical disabilities or sensory impairments, requiring high levels of support.",
+    "sector": "both"
+  },
+  {
+    "acronym": "POVA",
+    "full_term": "Protection of Vulnerable Adults",
+    "meaning": "An older term, and former vetting scheme, for the arrangements to safeguard adults at risk of abuse or neglect.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "PPE",
+    "full_term": "Personal Protective Equipment",
+    "meaning": "Items such as gloves, aprons and masks worn to protect against infection or other hazards.",
+    "sector": "health"
+  },
+  {
+    "acronym": "PR",
+    "full_term": "Parental Responsibility",
+    "meaning": "The legal rights, duties and authority a parent or other person has for a child and the child's property.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "PRN",
+    "full_term": "Pro Re Nata",
+    "meaning": "Latin for 'as required'; medication prescribed to be given only when needed, such as for pain, rather than at set times.",
+    "sector": "health"
+  },
+  {
+    "acronym": "PRU",
+    "full_term": "Pupil Referral Unit",
+    "meaning": "A type of school that educates children who cannot attend mainstream school, often following exclusion.",
+    "sector": "education"
+  },
+  {
+    "acronym": "PSHE",
+    "full_term": "Personal, Social, Health and Economic Education",
+    "meaning": "The school subject in which pupils learn about health, relationships, safety and living in the wider world.",
+    "sector": "education"
+  },
+  {
+    "acronym": "QS",
+    "full_term": "Quality Standards",
+    "meaning": "The nine standards in the Children's Homes (England) Regulations 2015 that describe the outcomes children's homes must achieve.",
+    "sector": "children"
+  },
+  {
+    "acronym": "RCCW",
+    "full_term": "Residential Child Care Worker",
+    "meaning": "A practitioner who cares for children living in children's homes, supporting their daily lives, development and wellbeing.",
+    "sector": "children"
+  },
+  {
+    "acronym": "RCPC",
+    "full_term": "Review Child Protection Conference",
+    "meaning": "A follow-up multi-agency meeting that reviews a child protection plan and decides whether it is still needed.",
+    "sector": "children"
+  },
+  {
+    "acronym": "Reg 40",
+    "full_term": "Regulation 40, Children's Homes (England) Regulations 2015",
+    "meaning": "The requirement to notify Ofsted and other relevant agencies of serious events, such as a child's death, serious injury or allegation of abuse.",
+    "sector": "children"
+  },
+  {
+    "acronym": "Reg 44",
+    "full_term": "Regulation 44, Children's Homes (England) Regulations 2015",
+    "meaning": "The requirement for an independent person to visit a children's home each month and report on the safety and wellbeing of the children.",
+    "sector": "children"
+  },
+  {
+    "acronym": "Reg 45",
+    "full_term": "Regulation 45, Children's Homes (England) Regulations 2015",
+    "meaning": "The requirement for a children's home to review the quality of its care at least every six months and produce a report.",
+    "sector": "children"
+  },
+  {
+    "acronym": "ReSPECT",
+    "full_term": "Recommended Summary Plan for Emergency Care and Treatment",
+    "meaning": "A personalised plan recording a person's preferences and clinical recommendations for their care in a future emergency.",
+    "sector": "health"
+  },
+  {
+    "acronym": "RHI",
+    "full_term": "Return Home Interview",
+    "meaning": "An independent interview offered to a child after a missing episode to understand why they went missing and what happened.",
+    "sector": "children"
+  },
+  {
+    "acronym": "RI",
+    "full_term": "Responsible Individual",
+    "meaning": "The person appointed by a provider to supervise the management of a registered service and represent the organisation to the regulator.",
+    "sector": "children"
+  },
+  {
+    "acronym": "RIDDOR",
+    "full_term": "Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013",
+    "meaning": "The law requiring employers to report specified workplace deaths, injuries, illnesses and near misses to the Health and Safety Executive.",
+    "sector": "both"
+  },
+  {
+    "acronym": "RM",
+    "full_term": "Registered Manager",
+    "meaning": "The person registered with the regulator as responsible for the day-to-day management of a care service.",
+    "sector": "both"
+  },
+  {
+    "acronym": "RSE",
+    "full_term": "Relationships and Sex Education",
+    "meaning": "The statutory school subject covering healthy relationships, consent and, in secondary schools, sex education.",
+    "sector": "education"
+  },
+  {
+    "acronym": "RSW",
+    "full_term": "Residential Support Worker",
+    "meaning": "A member of staff in a residential home who provides day-to-day care and support to the people living there.",
+    "sector": "children"
+  },
+  {
+    "acronym": "s.117",
+    "full_term": "Section 117, Mental Health Act 1983",
+    "meaning": "The duty on the NHS and local authorities to provide free aftercare to people who have been detained under certain sections of the Mental Health Act.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "s.17",
+    "full_term": "Section 17, Children Act 1989",
+    "meaning": "The legal duty on local authorities to provide services to safeguard and promote the welfare of children in need.",
+    "sector": "children"
+  },
+  {
+    "acronym": "s.20",
+    "full_term": "Section 20, Children Act 1989",
+    "meaning": "Voluntary accommodation of a child by the local authority with parental consent, without a court order.",
+    "sector": "children"
+  },
+  {
+    "acronym": "s.31",
+    "full_term": "Section 31, Children Act 1989",
+    "meaning": "The provision under which a court can make a care or supervision order if a child is suffering or likely to suffer significant harm.",
+    "sector": "children"
+  },
+  {
+    "acronym": "s.47",
+    "full_term": "Section 47, Children Act 1989",
+    "meaning": "The duty on a local authority to make enquiries when it suspects a child is suffering, or is likely to suffer, significant harm.",
+    "sector": "children"
+  },
+  {
+    "acronym": "SAB",
+    "full_term": "Safeguarding Adults Board",
+    "meaning": "The statutory multi-agency board in each local authority area that oversees adult safeguarding arrangements under the Care Act 2014.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "SALT",
+    "full_term": "Speech and Language Therapist",
+    "meaning": "A health professional who assesses and treats communication difficulties and swallowing problems.",
+    "sector": "health"
+  },
+  {
+    "acronym": "SAR",
+    "full_term": "Safeguarding Adults Review",
+    "meaning": "A statutory review held when an adult with care and support needs dies or is seriously harmed and abuse or neglect is suspected, to learn lessons.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "SAR",
+    "full_term": "Subject Access Request",
+    "meaning": "A request under data protection law by which a person can ask an organisation for copies of the personal data it holds about them.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "SBAR",
+    "full_term": "Situation, Background, Assessment, Recommendation",
+    "meaning": "A structured communication tool used to hand over concerns about a person's health clearly and quickly.",
+    "sector": "health"
+  },
+  {
+    "acronym": "SDQ",
+    "full_term": "Strengths and Difficulties Questionnaire",
+    "meaning": "A short questionnaire used to screen children's emotional and behavioural wellbeing, completed annually for looked-after children.",
+    "sector": "children"
+  },
+  {
+    "acronym": "SEMH",
+    "full_term": "Social, Emotional and Mental Health",
+    "meaning": "A special educational needs category for pupils whose emotional or mental health difficulties affect their behaviour and learning.",
+    "sector": "education"
+  },
+  {
+    "acronym": "SENCO",
+    "full_term": "Special Educational Needs Co-ordinator",
+    "meaning": "The teacher in a school responsible for organising support for pupils with special educational needs.",
+    "sector": "education"
+  },
+  {
+    "acronym": "SEND",
+    "full_term": "Special Educational Needs and Disabilities",
+    "meaning": "The umbrella term for learning difficulties or disabilities that make it harder for a child to learn than most children of the same age.",
+    "sector": "education"
+  },
+  {
+    "acronym": "SENDIASS",
+    "full_term": "Special Educational Needs and Disabilities Information, Advice and Support Service",
+    "meaning": "The free, impartial service in each area that advises parents and young people about SEND rights and support.",
+    "sector": "education"
+  },
+  {
+    "acronym": "SGO",
+    "full_term": "Special Guardianship Order",
+    "meaning": "A court order appointing a carer, often a relative, as a child's special guardian with enhanced parental responsibility until the child is 18.",
+    "sector": "children"
+  },
+  {
+    "acronym": "SLCN",
+    "full_term": "Speech, Language and Communication Needs",
+    "meaning": "Difficulties with speaking, understanding language or communicating socially that affect a child's learning and relationships.",
+    "sector": "education"
+  },
+  {
+    "acronym": "SoP",
+    "full_term": "Statement of Purpose",
+    "meaning": "The document every registered care service must have describing what it does, who it is for and how it delivers care.",
+    "sector": "both"
+  },
+  {
+    "acronym": "SOVA",
+    "full_term": "Safeguarding of Vulnerable Adults",
+    "meaning": "An older umbrella term for the policies and procedures used to protect adults at risk from abuse and neglect.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "SpLD",
+    "full_term": "Specific Learning Difficulty",
+    "meaning": "A difficulty affecting a particular aspect of learning, such as dyslexia, dyspraxia or dyscalculia, rather than general ability.",
+    "sector": "education"
+  },
+  {
+    "acronym": "STOMP",
+    "full_term": "Stopping Over-Medication of People with a Learning Disability, Autism or Both",
+    "meaning": "An NHS programme to reduce inappropriate use of psychotropic medication for people with a learning disability or autism.",
+    "sector": "health"
+  },
+  {
+    "acronym": "SW",
+    "full_term": "Social Worker",
+    "meaning": "A registered professional who assesses need and risk and supports children, adults and families to improve their safety and wellbeing.",
+    "sector": "both"
+  },
+  {
+    "acronym": "SWE",
+    "full_term": "Social Work England",
+    "meaning": "The regulator that registers social workers in England and sets professional standards.",
+    "sector": "both"
+  },
+  {
+    "acronym": "TAC",
+    "full_term": "Team Around the Child",
+    "meaning": "A group of practitioners from different services who meet with the family to plan co-ordinated support for a child.",
+    "sector": "children"
+  },
+  {
+    "acronym": "TAF",
+    "full_term": "Team Around the Family",
+    "meaning": "A group of practitioners who work together with a family to deliver a co-ordinated early help plan.",
+    "sector": "children"
+  },
+  {
+    "acronym": "TILE",
+    "full_term": "Task, Individual, Load, Environment",
+    "meaning": "The four factors assessed when planning safe moving and handling of people or objects.",
+    "sector": "both"
+  },
+  {
+    "acronym": "UASC",
+    "full_term": "Unaccompanied Asylum-Seeking Child",
+    "meaning": "A child claiming asylum in the UK who is separated from their parents and is cared for by a local authority.",
+    "sector": "children"
+  },
+  {
+    "acronym": "UC",
+    "full_term": "Universal Credit",
+    "meaning": "The main means-tested welfare benefit for working-age people, replacing several older benefits.",
+    "sector": "adults"
+  },
+  {
+    "acronym": "UTI",
+    "full_term": "Urinary Tract Infection",
+    "meaning": "An infection of the bladder or urinary system which, in older people, can cause sudden confusion or delirium.",
+    "sector": "health"
+  },
+  {
+    "acronym": "VAWG",
+    "full_term": "Violence Against Women and Girls",
+    "meaning": "The umbrella term for crimes disproportionately affecting women and girls, including domestic abuse, sexual violence and stalking.",
+    "sector": "both"
+  },
+  {
+    "acronym": "VI",
+    "full_term": "Visual Impairment",
+    "meaning": "A special educational needs category covering sight loss that affects a child's access to learning.",
+    "sector": "education"
+  },
+  {
+    "acronym": "VSH",
+    "full_term": "Virtual School Head",
+    "meaning": "The local authority officer responsible for promoting the educational achievement of looked-after and previously looked-after children.",
+    "sector": "education"
+  },
+  {
+    "acronym": "WTSC",
+    "full_term": "Working Together to Safeguard Children",
+    "meaning": "The statutory guidance setting out how agencies in England must work together to safeguard and promote the welfare of children.",
+    "sector": "children"
+  },
+  {
+    "acronym": "YJS",
+    "full_term": "Youth Justice Service",
+    "meaning": "The local multi-agency service, formerly known as the youth offending team, that works with children who offend or are at risk of offending.",
+    "sector": "children"
+  },
+  {
+    "acronym": "YOI",
+    "full_term": "Young Offender Institution",
+    "meaning": "A custodial establishment for young people sentenced or remanded by the courts.",
+    "sector": "legal"
+  },
+  {
+    "acronym": "YOT",
+    "full_term": "Youth Offending Team",
+    "meaning": "The multi-agency team that supervises children who have offended and works to prevent reoffending; now often called the Youth Justice Service.",
+    "sector": "children"
+  }
+]

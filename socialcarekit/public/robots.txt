@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /download/
+Disallow: /search/
+Disallow: /newsletter/
+
+Sitemap: https://socialcarekit.com/sitemap.xml

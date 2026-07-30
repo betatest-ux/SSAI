@@ -1,0 +1,9 @@
+config/config.php
+storage/cache/pages/*
+storage/logs/*
+storage/backups/*
+storage/setup.lock
+public/sitemap.xml
+!storage/cache/pages/.gitkeep
+!storage/logs/.gitkeep
+!storage/backups/.gitkeep

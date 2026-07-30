@@ -7,6 +7,9 @@ foreach ($rates as $r) {
         $current[$r['band']] = $r;
     }
 }
+// Present bands in age order, adult rate (the common case) first.
+$bandOrder = ['nlw_21_over', 'age_18_20', 'age_16_17', 'apprentice'];
+uksort($current, fn($x, $y) => array_search($x, $bandOrder, true) <=> array_search($y, $bandOrder, true));
 ?>
 <div class="section">
   <div class="container">

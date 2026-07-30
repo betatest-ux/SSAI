@@ -102,3 +102,19 @@ function client_ip(): string
 {
     return $_SERVER['REMOTE_ADDR'] ?? '0.0.0.0';
 }
+
+/** Session flash messages (admin panel). */
+function flash_set(string $type, string $message): void
+{
+    App\Core\Auth::start();
+    $_SESSION['flash'][] = ['type' => $type, 'message' => $message];
+}
+
+/** @return array<int, array{type: string, message: string}> */
+function flash_pull(): array
+{
+    App\Core\Auth::start();
+    $msgs = $_SESSION['flash'] ?? [];
+    unset($_SESSION['flash']);
+    return $msgs;
+}

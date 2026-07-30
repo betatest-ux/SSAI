@@ -19,7 +19,7 @@ return [
     'GET /search/'         => [PagesController::class, 'search'],
     'GET /report-error/'   => [PagesController::class, 'reportError'],
     'POST /report-error/'  => [FormsController::class, 'reportErrorSubmit'],
-    'GET /health'          => [PagesController::class, 'health'],
+    'GET /health/'         => [PagesController::class, 'health'],
 
     // Newsletter (double opt-in)
     'POST /newsletter/subscribe/'   => [FormsController::class, 'newsletterSubscribe'],

@@ -8,7 +8,7 @@ $banner = App\Core\Settings::get('site_banner');
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?= e($meta['title']) ?><?= $meta['title'] !== 'SocialCareKit' ? ' — SocialCareKit' : '' ?></title>
+<title><?= e($meta['title']) ?><?= str_contains($meta['title'], 'SocialCareKit') ? '' : ' — SocialCareKit' ?></title>
 <?php if (!empty($meta['description'])): ?>
 <meta name="description" content="<?= e($meta['description']) ?>">
 <?php endif; ?>

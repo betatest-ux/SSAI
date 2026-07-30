@@ -64,7 +64,7 @@ $out[] = '';
 $acronyms = json_decode(file_get_contents("$root/database/seed-content/acronyms.json"), true) ?: [];
 foreach ($acronyms as $a) {
     $out[] = sprintf(
-        'INSERT INTO acronyms (acronym, full_term, meaning, sector) VALUES (%s, %s, %s, %s);',
+        'INSERT INTO acronyms (acronym, full_term, meaning, sector) VALUES (%s, %s, %s, %s) ON DUPLICATE KEY UPDATE meaning = VALUES(meaning), sector = VALUES(sector);',
         q($a['acronym']), q($a['full_term']), q($a['meaning']), q($a['sector'])
     );
 }

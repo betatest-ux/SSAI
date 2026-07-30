@@ -115,7 +115,7 @@ CREATE TABLE IF NOT EXISTS acronyms (
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (id),
-  KEY idx_acronym (acronym),
+  UNIQUE KEY uq_acronym_term (acronym, full_term),
   FULLTEXT KEY ft_acronyms (acronym, full_term, meaning)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 

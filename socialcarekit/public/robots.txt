@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /download/
+Disallow: /files/
 Disallow: /search/
 Disallow: /newsletter/
 

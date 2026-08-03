@@ -104,7 +104,40 @@ For deliverability:
 - **DMARC (recommended):** TXT at `_dmarc` — `v=DMARC1; p=quarantine; rua=mailto:you@yourdomain`.
 - Send a test via the contact form and check the headers show `spf=pass` and `dkim=pass`.
 
-## 9. Post-deploy checks
+## 9. Large uploads (document manager)
+
+The admin *Documents* section accepts files up to the server's PHP limits.
+The repo ships both mechanisms for raising them to **256 MB**:
+
+- `public/.user.ini` — used when PHP runs as CGI/FastCGI/LSAPI (the default
+  on cPanel). Changes apply within ~5 minutes. Raise the values here if you
+  need more than 256 MB.
+- `public/.htaccess` `<IfModule mod_php.c>` block — used only on mod_php hosts.
+
+Verify the effective limit in the admin panel: *Documents → Upload document*
+shows "Server upload limit" (it reads the live PHP configuration). If it
+still shows 2M/8M after deploying:
+
+1. cPanel → *Select PHP Version* → *Options*: set `upload_max_filesize`,
+   `post_max_size`, `max_execution_time` (300), `max_input_time` (600) there —
+   some hosts override `.user.ini`.
+2. Hosts with ModSecurity/LiteSpeed request-body caps (`SecRequestBodyLimit`,
+   `LimitRequestBody`) may need a support ticket to raise them.
+3. If Cloudflare proxies the site, its free-plan cap is ~100 MB per upload
+   request — bypass the proxy (grey-cloud) on the admin hostname or accept
+   that cap.
+
+Timeouts: uploads honour `max_input_time` (600 s ≈ enough for 256 MB on a
+slow connection); downloads of any size are safe — files stream in 1 MB
+chunks with `set_time_limit(0)` and support resume (HTTP Range), so PHP
+memory and execution limits never bite.
+
+Uploaded documents live in `storage/documents/` (outside the web root) and
+are served at `/files/<slug>/`. **Include this folder in your backup routine**
+— the nightly job backs up the database only; add `storage/documents/` and
+`storage/templates/` to your host's file backups.
+
+## 10. Post-deploy checks
 
 - `https://yourdomain/health/` returns `ok`
 - Homepage, one tool, one template download, one guide all load

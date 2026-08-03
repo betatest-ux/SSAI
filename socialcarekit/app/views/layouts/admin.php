@@ -7,6 +7,7 @@ $nav = [
     '/admin/' => 'Dashboard',
     '/admin/articles/' => 'Content',
     '/admin/templates/' => 'Templates',
+    '/admin/documents/' => 'Documents',
     '/admin/acronyms/' => 'Acronyms',
     '/admin/rates/' => 'Rates & rules',
     '/admin/review-queue/' => 'Review queue',

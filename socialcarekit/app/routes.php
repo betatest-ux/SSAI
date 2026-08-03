@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-use App\Controllers\{PagesController, ToolsController, LibraryController, ArticlesController, FormsController};
+use App\Controllers\{PagesController, ToolsController, LibraryController, ArticlesController, FormsController, FilesController};
 use App\Controllers\Admin\{AuthController, DashboardController, ArticlesAdminController, TemplatesAdminController,
     AcronymsAdminController, RatesAdminController, SeoAdminController, InboxAdminController, NewsletterAdminController,
-    UsersAdminController, SettingsAdminController, BackupAdminController, SearchLogAdminController};
+    UsersAdminController, SettingsAdminController, BackupAdminController, SearchLogAdminController, DocumentsAdminController};
 
 return [
     // ---- Public pages -------------------------------------------------------
@@ -44,6 +44,9 @@ return [
     'GET /templates/{slug}/'  => [LibraryController::class, 'show'],
     'GET /download/{slug}/'   => [LibraryController::class, 'download'],
 
+    // ---- Uploaded documents (admin-managed library) -------------------------
+    'GET /files/{slug}/'      => [FilesController::class, 'serve'],
+
     // ---- Articles -----------------------------------------------------------
     'GET /guides/'        => [ArticlesController::class, 'guidesIndex'],
     'GET /guides/{slug}/' => [ArticlesController::class, 'guide'],
@@ -73,6 +76,15 @@ return [
     'GET /admin/templates/{id}/'    => [TemplatesAdminController::class, 'form'],
     'POST /admin/templates/save/'   => [TemplatesAdminController::class, 'save'],
     'POST /admin/templates/delete/' => [TemplatesAdminController::class, 'delete'],
+
+    'GET /admin/documents/'                   => [DocumentsAdminController::class, 'index'],
+    'GET /admin/documents/new/'               => [DocumentsAdminController::class, 'form'],
+    'GET /admin/documents/categories/'        => [DocumentsAdminController::class, 'categories'],
+    'POST /admin/documents/categories/save/'  => [DocumentsAdminController::class, 'categorySave'],
+    'POST /admin/documents/categories/delete/' => [DocumentsAdminController::class, 'categoryDelete'],
+    'GET /admin/documents/{id}/'              => [DocumentsAdminController::class, 'form'],
+    'POST /admin/documents/save/'             => [DocumentsAdminController::class, 'save'],
+    'POST /admin/documents/delete/'           => [DocumentsAdminController::class, 'delete'],
 
     'GET /admin/acronyms/'          => [AcronymsAdminController::class, 'index'],
     'POST /admin/acronyms/save/'    => [AcronymsAdminController::class, 'save'],

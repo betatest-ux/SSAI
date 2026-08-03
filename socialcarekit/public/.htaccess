@@ -33,6 +33,16 @@ ExpiresByType image/webp "access plus 30 days"
 ExpiresByType image/png "access plus 30 days"
 </IfModule>
 
+# PHP limits for large document uploads (mod_php / LiteSpeed only —
+# FastCGI/LSAPI hosts read the same values from .user.ini instead)
+<IfModule mod_php.c>
+php_value upload_max_filesize 256M
+php_value post_max_size 260M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 600
+</IfModule>
+
 # Never serve these if they somehow end up in the web root
 <FilesMatch "\.(sql|ini|log|sh|bak|env)$">
   Require all denied

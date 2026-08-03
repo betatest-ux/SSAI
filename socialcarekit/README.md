@@ -27,6 +27,11 @@ build/          Dev-only helpers (PHP built-in server router)
   aggregate per-day page-view counter — no cookies, no consent banner needed.
 - **Template files live outside the web root** and are served via
   `/download/{slug}/` for download counting and hotlink prevention.
+- **General document manager** (admin → Documents): upload files up to the
+  server limit (shipped config raises it to 256 MB), organise them into
+  admin-managed categories, and link to them anywhere at `/files/{slug}/`.
+  Downloads stream in 1 MB chunks with HTTP Range/resume support, so large
+  files never hit PHP memory or execution limits.
 - **Annual legal updates need no deploy:** NMW rates, WTR parameters and
   review dates are managed in the admin panel (Rates & rules).
 - **Page cache** is file-based with purge-on-publish (shared hosting has no

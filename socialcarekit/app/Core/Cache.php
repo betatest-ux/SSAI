@@ -23,7 +23,7 @@ final class Cache
 
     public static function cacheable(string $path): bool
     {
-        if (str_starts_with($path, '/admin') || str_starts_with($path, '/download')) {
+        if (str_starts_with($path, '/admin') || str_starts_with($path, '/download') || str_starts_with($path, '/files')) {
             return false;
         }
         // Never cache pages that vary per visitor (forms carry CSRF-free honeypots

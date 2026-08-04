@@ -40,6 +40,24 @@ build/          Dev-only helpers (PHP built-in server router)
   (`public/assets/css/site.css`) — tokens, components, print styles, WCAG AA
   focus states — shipped ready-built so the server needs no tooling.
 
+## Test drive with Docker (easiest)
+
+With [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed:
+
+```bash
+git clone https://github.com/betatest-ux/socialcarekit
+cd socialcarekit
+docker compose up --build
+```
+
+Then open **http://localhost:8080** — the database imports itself (all
+templates, guides, acronyms and rates included). Create your admin login at
+**http://localhost:8080/setup.php**, then explore the admin panel at
+`/admin/`. Stop with Ctrl-C; `docker compose down -v` resets the database.
+Upload limits match production (256 MB). Emails are not sent in this
+environment (newsletter confirmation links can be taken from the
+`newsletter_subscribers` table if you want to test that flow).
+
 ## Local development
 
 ```bash

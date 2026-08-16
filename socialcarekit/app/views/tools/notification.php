@@ -1,9 +1,9 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Notification Decision Tool</h1>
     <?= view('partials/tool-privacy') ?>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <div id="ndt-app">
         <div id="ndt-question" aria-live="polite"></div>
         <div class="tool-actions">

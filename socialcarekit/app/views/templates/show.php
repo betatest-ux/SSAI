@@ -1,14 +1,14 @@
 <div class="section">
   <div class="container">
     <div class="grid" style="grid-template-columns:1fr;max-width:760px">
-      <div>
+      <div data-reveal>
         <span class="tag tag-<?= e($t['regulator']) ?>"><?= e($t['regulator'] === 'both' ? 'Ofsted + CQC' : strtoupper($t['regulator'])) ?></span>
         <span class="tag"><?= e(strtoupper($t['format'])) ?></span>
         <h1><?= e($t['title']) ?></h1>
         <p class="meta-line">Last reviewed: <?= e(format_date($t['last_reviewed'] ?: $t['updated_at'])) ?> · Downloaded <?= number_format((float) $t['download_count']) ?> times</p>
         <p><?= nl2br(e((string) $t['description'])) ?></p>
         <?php if ($t['supports']): ?>
-        <div class="summary-box">
+        <div class="summary-box" data-reveal="left">
           <h2>Supports</h2>
           <p><?= e($t['supports']) ?></p>
         </div>
@@ -21,7 +21,7 @@
     </div>
 
     <?php if ($related): ?>
-    <aside class="related-block" aria-label="Related templates">
+    <aside class="related-block" data-reveal aria-label="Related templates">
       <h2>Related templates</h2>
       <ul>
         <?php foreach ($related as $r): ?>

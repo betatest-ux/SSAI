@@ -1,9 +1,9 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Holiday Accrual Calculator</h1>
     <?= view('partials/tool-privacy') ?>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <form id="hol-form" novalidate>
         <fieldset>
           <legend>What do you want to work out?</legend>

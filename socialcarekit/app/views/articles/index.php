@@ -8,7 +8,7 @@
     <?php endif; ?>
     <div class="grid grid-2" style="margin-top:1.5rem">
       <?php foreach ($articles as $a): ?>
-      <a class="card-wrap" href="/<?= e($section) ?>/<?= e($a['slug']) ?>/">
+      <a class="card-wrap" href="/<?= e($section) ?>/<?= e($a['slug']) ?>/" data-reveal>
         <div class="card">
           <h2 style="font-size:1.15rem"><?= e($a['title']) ?></h2>
           <p style="font-size:.95rem"><?= e(mb_strimwidth((string) $a['summary'], 0, 180, '…')) ?></p>

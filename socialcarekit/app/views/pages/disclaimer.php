@@ -1,9 +1,9 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container article-body">
     <h1>Disclaimer</h1>
     <p class="meta-line">Last updated: 30 July 2026</p>
 
-    <div class="summary-box">
+    <div class="summary-box" data-reveal="left">
       <h2>The essentials</h2>
       <p>Everything on SocialCareKit is general guidance. It is not legal advice, not financial advice, not clinical advice, and not a substitute for your organisation's policies or professional judgement.</p>
     </div>

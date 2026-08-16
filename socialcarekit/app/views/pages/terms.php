@@ -1,4 +1,4 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container article-body">
     <h1>Terms of use</h1>
     <p class="meta-line">Last updated: 30 July 2026</p>

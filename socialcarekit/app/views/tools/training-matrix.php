@@ -1,12 +1,12 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Training Matrix Tracker</h1>
     <?= view('partials/tool-privacy') ?>
-    <div class="notice">
+    <div class="notice" data-reveal="left">
       <p><strong>Where your data lives:</strong> this matrix is saved in your browser's local storage on <em>this device only</em> — nothing touches our servers. Clearing your browser data will delete it, so use <strong>Export CSV</strong> regularly to keep a copy in your organisation's systems, and to move the matrix between devices.</p>
     </div>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <div class="tool-actions" style="margin:0 0 1rem">
         <button type="button" class="btn btn-primary btn-sm" id="tm-add-staff">+ Add staff member</button>
         <button type="button" class="btn btn-primary btn-sm" id="tm-add-course">+ Add course</button>

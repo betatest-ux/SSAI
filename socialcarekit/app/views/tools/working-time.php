@@ -1,10 +1,10 @@
 <?php /** @var array $params WTR parameters from admin settings */ ?>
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Working Time Regulations Checker</h1>
     <?= view('partials/tool-privacy') ?>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <p>Enter one week's rota. Leave days you didn't work blank. Times use the 24-hour clock; shifts ending past midnight are handled automatically (e.g. 21:00–09:00).</p>
       <form id="wtr-form" novalidate>
         <div style="overflow-x:auto">

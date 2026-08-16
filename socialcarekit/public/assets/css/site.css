@@ -75,6 +75,8 @@ code { background: var(--c-bg-soft); padding: .1em .35em; border-radius: 4px; fo
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
+  .footer-grid > * { opacity: 1 !important; transform: none !important; }
 }
 
 /* ---- Layout ---- */
@@ -104,8 +106,8 @@ code { background: var(--c-bg-soft); padding: .1em .35em; border-radius: 4px; fo
   margin-left: auto; background: none; border: 2px solid rgba(255,255,255,.5);
   color: #fff; border-radius: 6px; padding: .35rem .5rem; cursor: pointer;
 }
-.site-nav { display: none; width: 100%; }
-.site-nav.open { display: block; }
+.site-nav { width: 100%; }
+/* Mobile show/hide handled by animation section (max-height transition) */
 .site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .1rem; }
 .site-nav a {
   display: block; color: #fff; text-decoration: none; font-weight: 600;
@@ -277,3 +279,250 @@ legend { font-weight: 700; padding: 0 .4rem; }
   main { padding: 0; }
 }
 .print-only { display: none; }
+
+/* ============================================================
+   Animations & transitions
+   Scroll-reveal, hover effects, micro-interactions.
+   All motion gated behind prefers-reduced-motion above.
+   ============================================================ */
+
+/* ---- Scroll-reveal base ---- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .55s cubic-bezier(.22,.61,.36,1),
+              transform .55s cubic-bezier(.22,.61,.36,1);
+  will-change: opacity, transform;
+}
+[data-reveal="left"] {
+  transform: translateX(-28px);
+}
+[data-reveal="scale"] {
+  transform: scale(.92);
+}
+[data-reveal].revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---- Hero entrance choreography ---- */
+.hero h1 {
+  opacity: 0;
+  transform: translateY(20px) scale(.97);
+  animation: hero-title .7s cubic-bezier(.22,.61,.36,1) .15s forwards;
+}
+.hero .lead {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: hero-fade .6s cubic-bezier(.22,.61,.36,1) .35s forwards;
+}
+.hero p:last-child {
+  opacity: 0;
+  transform: translateY(14px);
+  animation: hero-fade .6s cubic-bezier(.22,.61,.36,1) .55s forwards;
+}
+@keyframes hero-title {
+  to { opacity: 1; transform: none; }
+}
+@keyframes hero-fade {
+  to { opacity: 1; transform: none; }
+}
+
+/* Ambient gradient shift on hero */
+.hero {
+  background-size: 200% 200%;
+  animation: hero-gradient 12s ease-in-out infinite;
+}
+@keyframes hero-gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ---- Card hover effects ---- */
+a.card-wrap .card {
+  transition: transform .28s cubic-bezier(.22,.61,.36,1),
+              box-shadow .28s cubic-bezier(.22,.61,.36,1),
+              border-color .28s ease;
+}
+a.card-wrap:hover .card {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(15,82,87,.12), 0 2px 6px rgba(15,82,87,.08);
+  border-color: var(--c-primary);
+}
+a.card-wrap:active .card {
+  transform: translateY(-2px) scale(.985);
+  box-shadow: 0 2px 8px rgba(15,82,87,.10);
+  transition-duration: .12s;
+}
+
+/* Card icon pulse on hover */
+.card-icon {
+  transition: transform .3s cubic-bezier(.22,.61,.36,1),
+              background .3s ease;
+}
+a.card-wrap:hover .card-icon {
+  transform: scale(1.1);
+  background: var(--c-primary);
+  color: #fff;
+}
+
+/* Card link arrow nudge */
+.card-link {
+  transition: transform .25s cubic-bezier(.22,.61,.36,1),
+              color .25s ease;
+  display: inline-block;
+}
+a.card-wrap:hover .card-link {
+  transform: translateX(4px);
+  color: var(--c-primary);
+}
+
+/* ---- Button micro-interactions ---- */
+.btn {
+  transition: transform .18s cubic-bezier(.22,.61,.36,1),
+              box-shadow .18s ease,
+              background .18s ease,
+              border-color .18s ease,
+              color .18s ease;
+}
+.btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 14px rgba(15,82,87,.15);
+}
+.btn:active {
+  transform: scale(.97);
+  box-shadow: 0 1px 3px rgba(15,82,87,.10);
+  transition-duration: .08s;
+}
+.btn-accent:hover {
+  box-shadow: 0 4px 20px rgba(244,162,89,.35);
+}
+
+/* ---- Mobile nav slide transition ---- */
+@media (max-width: 859.98px) {
+  .site-nav {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height .35s cubic-bezier(.22,.61,.36,1),
+                opacity .25s ease;
+    display: block !important;
+  }
+  .site-nav.open {
+    max-height: 500px;
+    opacity: 1;
+  }
+  .site-nav ul {
+    transition: transform .3s cubic-bezier(.22,.61,.36,1);
+    transform: translateY(-8px);
+  }
+  .site-nav.open ul {
+    transform: none;
+  }
+}
+
+/* ---- Form field focus transitions ---- */
+input[type="text"], input[type="email"], input[type="number"], input[type="date"],
+input[type="time"], input[type="search"], input[type="password"], select, textarea {
+  transition: border-color .2s ease,
+              box-shadow .2s ease,
+              background .2s ease;
+}
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(15,82,87,.12);
+  background: #fcfefe;
+}
+
+/* ---- Tool result reveal ---- */
+.tool-result {
+  transition: opacity .45s cubic-bezier(.22,.61,.36,1),
+              transform .45s cubic-bezier(.22,.61,.36,1);
+}
+.tool-result[data-animate-in] {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.tool-result[data-animate-in].visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Animated number counter */
+.result-figure[data-countup] {
+  display: inline-block;
+}
+
+/* ---- RAG indicator pulse ---- */
+@keyframes rag-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+.tool-result.pass, .tool-result.fail, .tool-result.warn {
+  animation: rag-pulse .5s cubic-bezier(.22,.61,.36,1) 1;
+}
+
+/* ---- Filter chip transitions ---- */
+.filter-bar .chip {
+  transition: background .2s ease,
+              border-color .2s ease,
+              color .2s ease,
+              transform .15s ease;
+}
+.filter-bar .chip:hover {
+  border-color: var(--c-primary);
+  transform: scale(1.04);
+}
+.filter-bar .chip:active {
+  transform: scale(.96);
+}
+
+/* ---- Tag transitions ---- */
+.tag {
+  transition: transform .2s ease;
+}
+a.card-wrap:hover .tag {
+  transform: scale(1.04);
+}
+
+/* ---- Notice slide-in ---- */
+.notice[data-reveal], .summary-box[data-reveal],
+.privacy-note[data-reveal], .legislation-list[data-reveal] {
+  transform: translateX(-20px);
+}
+.notice[data-reveal].revealed, .summary-box[data-reveal].revealed,
+.privacy-note[data-reveal].revealed, .legislation-list[data-reveal].revealed {
+  transform: none;
+}
+
+/* ---- Footer column stagger ---- */
+.footer-grid > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .5s cubic-bezier(.22,.61,.36,1),
+              transform .5s cubic-bezier(.22,.61,.36,1);
+}
+.footer-grid.revealed > * {
+  opacity: 1;
+  transform: none;
+}
+.footer-grid.revealed > :nth-child(2) { transition-delay: .1s; }
+.footer-grid.revealed > :nth-child(3) { transition-delay: .2s; }
+
+/* ---- Smooth scroll ---- */
+html { scroll-behavior: smooth; }
+
+/* ---- Brand mark hover ---- */
+.brand-mark {
+  transition: transform .3s cubic-bezier(.22,.61,.36,1);
+}
+.brand:hover .brand-mark {
+  transform: rotate(-8deg) scale(1.08);
+}
+
+/* ---- Search bar focus glow ---- */
+.header-search input {
+  transition: box-shadow .2s ease;
+}
+.header-search input:focus {
+  box-shadow: 0 0 0 3px rgba(244,162,89,.3);
+}

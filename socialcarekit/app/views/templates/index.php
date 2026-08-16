@@ -29,7 +29,7 @@ $catLabels = [
 
     <div class="grid grid-3">
       <?php foreach ($templates as $t): ?>
-      <a class="card-wrap" href="/templates/<?= e($t['slug']) ?>/" data-template-card data-filter-tags="<?= e($t['regulator'] . ' ' . $t['category']) ?>">
+      <a class="card-wrap" href="/templates/<?= e($t['slug']) ?>/" data-template-card data-filter-tags="<?= e($t['regulator'] . ' ' . $t['category']) ?>" data-reveal>
         <div class="card">
           <div>
             <span class="tag tag-<?= e($t['regulator']) ?>"><?= e(strtoupper($t['regulator'] === 'both' ? 'Ofsted + CQC' : $t['regulator'])) ?></span>

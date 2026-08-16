@@ -1,4 +1,4 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container" style="max-width:760px">
     <h1>Search</h1>
     <form action="/search/" method="get" role="search" style="display:flex;gap:.5rem;max-width:520px">

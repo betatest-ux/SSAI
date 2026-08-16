@@ -119,5 +119,6 @@ $banner = App\Core\Settings::get('site_banner');
   </div>
 </footer>
 <script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/site-animate.js" defer></script>
 </body>
 </html>

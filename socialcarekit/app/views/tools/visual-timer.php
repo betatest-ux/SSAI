@@ -1,10 +1,10 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Visual Timer &amp; Now/Next Board</h1>
     <?= view('partials/tool-privacy') ?>
     <p style="max-width:680px">A calm, tablet-friendly now-and-next board with a visual countdown. Choose picture cards, set a time, and press <strong>Full screen</strong>. Once the page has loaded it works offline — add it to your tablet's home screen.</p>
 
-    <div class="tool-panel" id="vt-setup">
+    <div class="tool-panel" data-reveal id="vt-setup">
       <div class="grid grid-2">
         <fieldset>
           <legend>NOW</legend>

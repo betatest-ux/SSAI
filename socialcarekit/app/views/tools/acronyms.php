@@ -1,10 +1,10 @@
 <?php /** @var array $entries */ ?>
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Acronym Decoder</h1>
     <p class="lead" style="max-width:680px">"CLA has an ICPC, LADO aware, MASH informed…" — social care runs on acronyms. Search <?= count($entries) ?> of them, in plain English.</p>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <div class="form-row">
         <label for="ac-search">Search acronyms</label>
         <input type="search" id="ac-search" placeholder="e.g. LADO, s.47, DoLS…" autocomplete="off">

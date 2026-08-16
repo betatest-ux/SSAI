@@ -1,12 +1,12 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Body Map Recorder</h1>
     <?= view('partials/tool-privacy') ?>
-    <div class="notice notice-danger">
+    <div class="notice notice-danger" data-reveal="left">
       <p><strong>Nothing is saved anywhere.</strong> This page keeps the record only in your browser's memory. If you close or refresh the page the record is gone. Complete it, <strong>print it or save it as a PDF</strong>, and file it in your organisation's own recording system. This is deliberate: safeguarding records belong in your organisation's systems, not on our servers.</p>
     </div>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <div class="grid grid-2">
         <div class="form-row">
           <label for="bm-variant">Body outline</label>

@@ -1,9 +1,9 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container article-body">
     <h1>Privacy policy</h1>
     <p class="meta-line">Last updated: 30 July 2026</p>
 
-    <div class="summary-box">
+    <div class="summary-box" data-reveal="left">
       <h2>In short</h2>
       <p>Our interactive tools run entirely in your browser — nothing you type into them is sent to or stored on our servers, ever. We keep no visitor profiles, set no analytics cookies, and collect personal data only when you deliberately give it to us (contact form or newsletter signup).</p>
     </div>

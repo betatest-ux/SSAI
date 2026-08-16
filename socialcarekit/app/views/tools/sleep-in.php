@@ -11,12 +11,12 @@ foreach ($rates as $r) {
 $bandOrder = ['nlw_21_over', 'age_18_20', 'age_16_17', 'apprentice'];
 uksort($current, fn($x, $y) => array_search($x, $bandOrder, true) <=> array_search($y, $bandOrder, true));
 ?>
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
     <h1>Sleep-in Pay &amp; National Minimum Wage Checker</h1>
     <?= view('partials/tool-privacy') ?>
 
-    <div class="tool-panel">
+    <div class="tool-panel" data-reveal>
       <form id="sleepin-form" novalidate>
         <div class="grid grid-2">
           <div>

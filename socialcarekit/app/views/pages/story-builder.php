@@ -6,9 +6,9 @@
   </div>
 </section>
 
-<div class="section">
+<div class="section" data-reveal>
   <div class="container">
-    <div class="notice">
+    <div class="notice" data-reveal="left">
       <p><strong>Independent product.</strong> The Visual Story Builder is not affiliated with, or endorsed by, Carol Gray or Social Stories™. We build generic <em>visual stories</em> — simple, personalised picture-and-text narratives that help people prepare for events and transitions.</p>
     </div>
 
@@ -38,7 +38,7 @@
       <div style="max-width:560px">
         <h2>Be first to know</h2>
         <?php if ($subscribed): ?>
-        <div class="notice notice-success"><p><strong>One more step:</strong> we've sent you a confirmation email — click the link inside to join the list (that's the double opt-in that keeps the list spam-free).</p></div>
+        <div class="notice notice-success" data-reveal="left"><p><strong>One more step:</strong> we've sent you a confirmation email — click the link inside to join the list (that's the double opt-in that keeps the list spam-free).</p></div>
         <?php else: ?>
         <p>Launch news only — no filler emails. Double opt-in, one-click unsubscribe.</p>
         <form method="post" action="/newsletter/subscribe/">

@@ -1,8 +1,8 @@
-<div class="section">
+<div class="section" data-reveal>
   <div class="container" style="max-width:720px">
     <h1>Report an error in a tool</h1>
     <?php if ($sent): ?>
-    <div class="notice notice-success"><p><strong>Thank you.</strong> Accuracy reports go to the top of our queue — we'll review this against the legislation and correct anything that's wrong, and the page's "last reviewed" date will show when.</p></div>
+    <div class="notice notice-success" data-reveal="left"><p><strong>Thank you.</strong> Accuracy reports go to the top of our queue — we'll review this against the legislation and correct anything that's wrong, and the page's "last reviewed" date will show when.</p></div>
     <?php else: ?>
     <p>People rely on these tools, so accuracy matters more than pride. If a calculation looks wrong, a regulation is out of date, or a definition is off — tell us, including the numbers or wording if you can.</p>
     <form method="post" action="/report-error/">
